@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      Write code to return the first 100 shiny numbers greater than n
+    </title>
+  </head>
+  <body>
+    <div class="container">
+      <form onsubmit="getDataFromForm();return false">
+        <label>Number:</label>
+        <input id="userNum" type="text" /><br /><br />
+        <label>Array (input comma separated numbers):</label>
+        <input id="arrOfNumbers" type="text" /><br /><br />
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
+    <text id="titleShiny">Shiny numbers:</text>
+    <text id="arrayShiny"></text>
+  </body>
+  <script src="ch.js"></script>
+</html>
