@@ -1,7 +1,6 @@
 let arrayOfShiny = []
 let arr = []
 let n = null
-let result = document.getElementById("arrayShiny")
 
 const initialization = () => {
   arrayOfShiny = []
