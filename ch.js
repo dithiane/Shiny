@@ -60,7 +60,7 @@ const searchForShiny = (arr, n) => {
   checkShinyProperty(hashInt)
   checkShinyProperty(hashFloat)
 
-  document.getElementById("arrayShiny").innerText = arrayOfShiny.slice(0, 100)
+  document.getElementById("arrayShiny").innerText = arrayOfShiny.slice(0, 99)
 }
 
 getDataFromForm()
